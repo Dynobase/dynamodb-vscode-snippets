@@ -15,6 +15,8 @@ There you have either the option to show the already installed snippets or insta
 
 ## Snippets
 
+To add new, please use this awesome tool: [https://snippet-generator.app/](https://snippet-generator.app/)
+
 Below is a list of all available snippets and the triggers of each one. To use them simply press `Shift + ^` key and type trigger word.
 
 `|` indicates a list of possible choices.
