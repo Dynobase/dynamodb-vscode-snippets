@@ -3,5 +3,27 @@
   "version": "0.0.1",
   "description": "AWS DynamoDB snippets for Visual Studio Code (VSCode)",
   "main": "index.js",
-  "license": "MIT"
+  "publisher": "rafwilinski",
+  "icon": "images/dynobase-logo.png",
+  "displayName": "AWS DynamoDB SDK Snippets",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RafalWilinski/dynamodb-vscode-snippets"
+  },
+  "engines": {
+    "vscode": "^0.10.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "author": "Rafal Wilinski <rafal@dynobase.dev> (https://dynobase.dev)",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "yaml",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
 }
