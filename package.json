@@ -1,0 +1,7 @@
+{
+  "name": "dynamodb-vscode-snippets",
+  "version": "0.0.1",
+  "description": "AWS DynamoDB snippets for Visual Studio Code (VSCode)",
+  "main": "index.js",
+  "license": "MIT"
+}
