@@ -8,5 +8,14 @@
             "});"
         ],
         "description": "DynamoDB.DocumentClient constructor"
+    },
+    "DynamoDB constructor": {
+        "prefix": "ddb",
+        "body": [
+            "const documentClient = new DynamoDB({",
+            "  region: '${1:region}',",
+            "});"
+        ],
+        "description": "DynamoDB constructor"
     }
 }
