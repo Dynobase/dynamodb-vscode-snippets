@@ -4,7 +4,7 @@
   "description": "AWS DynamoDB snippets for Visual Studio Code (VSCode)",
   "main": "index.js",
   "publisher": "rafwilinski",
-  "icon": "images/dynobase-logo.png",
+  "icon": "images/dynobase-icon.png",
   "displayName": "AWS DynamoDB SDK Snippets",
   "repository": {
     "type": "git",
