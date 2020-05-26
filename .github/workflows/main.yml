@@ -1,12 +1,15 @@
 on: push
+
 name: 'Release Vscode Plugin'
+
 jobs:
   publish:
     name: Publish
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout
-      - name: Vscode release plugin
+      - name: Check out Git repository	
+        uses: actions/checkout@v1
+      - name: VSCode release plugin
         uses: JCofman/vscodeaction@master
         env:
           PUBLISHER_TOKEN: ${{ secrets.PUBLISHER_TOKEN }}
