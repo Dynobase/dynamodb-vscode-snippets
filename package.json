@@ -8,7 +8,7 @@
   "displayName": "AWS DynamoDB SDK Snippets",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RafalWilinski/dynamodb-vscode-snippets"
+    "url": "https://github.com/dynobase/dynamodb-vscode-snippets"
   },
   "engines": {
     "vscode": "^0.10.0"
