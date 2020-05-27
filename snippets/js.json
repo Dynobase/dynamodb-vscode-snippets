@@ -1,0 +1,51 @@
+{
+    "DynamoDB.DocumentClient constructor": {
+        "prefix": "ddbc",
+        "body": [
+            "const documentClient = new DynamoDB.DocumentClient({",
+            "  region: '${1:region}',",
+            "  convertEmptyValues: ${2|true,false|}",
+            "});"
+        ],
+        "description": "DynamoDB.DocumentClient constructor"
+    },
+    "DynamoDB constructor": {
+        "prefix": "ddb",
+        "body": [
+            "const documentClient = new DynamoDB({",
+            "  region: '${1:region}',",
+            "});"
+        ],
+        "description": "DynamoDB constructor"
+    },
+    "DynamoDB Require": {
+        "prefix": "reqddb",
+        "body": [
+            "const { DynamoDB } = require('aws-sdk');"
+        ],
+        "description": "DynamoDB Require"
+    },
+    "DynamoDB Import": {
+        "prefix": "iddb",
+        "body": [
+            "import { DynamoDB } from 'aws-sdk';"
+        ],
+        "description": "DynamoDB Import"
+    },
+    "DynamoDB Update ": {
+        "prefix": "updasync",
+        "body": [
+            "await documentClient",
+            "  .update({",
+            "    TableName: '${1:tableName}',",
+            "    UpdateExpression: '${2}',",
+            "    Key: {",
+            "      ${3:key}: ${4:example}",
+            "    },",
+            "    ExpressionAttributeNames: {${5:example}}",
+            "  })",
+            "  .promise();"
+        ],
+        "description": "DynamoDB Update "
+    }
+}
