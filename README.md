@@ -21,5 +21,26 @@ Below is a list of all available snippets and the triggers of each one. To use t
 
 `|` indicates a list of possible choices.
 
+- `ddbc` 
+
+```javascript
+```
+
+
+- `ddb` 
+
+```javascript
+```
+
+
+- `reqddb` 
+
+```javascript
+```
+
+- `iddb` 
+
+```javascript
+```
 
 [MIT License](https://opensource.org/licenses/MIT) © [Dynobase](https://dynobase.dev)
