@@ -3,7 +3,7 @@
         "prefix": "ddbc",
         "body": [
             "const documentClient = new DynamoDB.DocumentClient({",
-            "  region: '${1:region}',",
+            "  region: '$1',",
             "  convertEmptyValues: ${2|true,false|}",
             "});"
         ],
