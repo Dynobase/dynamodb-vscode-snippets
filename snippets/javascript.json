@@ -1,5 +1,5 @@
 {
-    "DynamoDB.DocumentClient constructor": {
+    "DynamoDB_DocumentClient_constructor": {
         "prefix": "ddbc",
         "body": [
             "const documentClient = new DynamoDB.DocumentClient({",
@@ -9,7 +9,7 @@
         ],
         "description": "DynamoDB.DocumentClient constructor"
     },
-    "DynamoDB constructor": {
+    "DynamoDB_constructor": {
         "prefix": "ddb",
         "body": [
             "const documentClient = new DynamoDB({",
@@ -18,21 +18,21 @@
         ],
         "description": "DynamoDB constructor"
     },
-    "DynamoDB Require": {
+    "DynamoDB_Require": {
         "prefix": "reqddb",
         "body": [
             "const { DynamoDB } = require('aws-sdk');"
         ],
         "description": "DynamoDB Require"
     },
-    "DynamoDB Import": {
+    "DynamoDB_Import": {
         "prefix": "iddb",
         "body": [
             "import { DynamoDB } from 'aws-sdk';"
         ],
         "description": "DynamoDB Import"
     },
-    "DynamoDB Update ": {
+    "DynamoDB_Update ": {
         "prefix": "updasync",
         "body": [
             "await documentClient",
