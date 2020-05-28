@@ -1,6 +1,6 @@
 {
   "name": "dynamodb-vscode-snippets",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "AWS DynamoDB snippets for Visual Studio Code (VSCode)",
   "main": "index.js",
   "publisher": "rafwilinski",
@@ -22,11 +22,7 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./snippets/snippets.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/snippets.json"
+        "path": "./snippets/javascript.json"
       }
     ]
   }
